@@ -38,6 +38,7 @@ export default class BaseLayout extends Component {
                 <Route path="/" element={<Movies />} />
                 <Route path="movies" element={<Movies />} />
                 <Route path="members" element={<Members />} />
+                <Route path="report" element={<Report />} />
                 <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>
