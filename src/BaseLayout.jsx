@@ -31,7 +31,6 @@ export default class BaseLayout extends Component {
             </div>
           </Container>
         </Navbar>
-        <p></p>
         <Container>
           <BrowserRouter>
             <Routes>
